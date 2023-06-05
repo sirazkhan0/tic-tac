@@ -3,7 +3,7 @@ $orange: #ffc72a;
 $blue: #4c43d4;
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   background-color: $blue;
   color: #fff;
   padding: 0;
@@ -46,7 +46,7 @@ button {
       list-style: none;
       text-align: left;
       &:before {
-        content: "";
+        content: '';
         border-radius: 50%;
         display: inline-block;
         height: 5px;
@@ -139,7 +139,7 @@ button {
 
   &:before,
   &:after {
-    content: "";
+    content: '';
     position: absolute;
     width: 150px;
     height: 150px;
